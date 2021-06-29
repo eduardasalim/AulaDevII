@@ -1,0 +1,11 @@
+void main() {
+  String nome = "Eduarda";
+  String sobrenome ="Salim";
+  int idade = 22;
+  String endereco = "Rua A";
+  String nomeCompleto = nome+" "+sobrenome;
+  
+  String mensagem = "Meu nome é $nomeCompleto, tenho $idade e moro na $endereco";
+  
+  print(mensagem);
+}

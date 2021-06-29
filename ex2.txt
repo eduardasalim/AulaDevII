@@ -1,0 +1,8 @@
+void main() {
+  double valorIngresso = 12.60;
+  double valorTotal = valorIngresso * 4;
+  
+  String mensagem = "O valor do ingresso para 4 pessoas é de $valorTotal";
+  
+  print(mensagem);
+}
