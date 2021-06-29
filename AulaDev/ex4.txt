@@ -1,0 +1,11 @@
+
+
+void main() {
+  double base = 5;
+  double altura = 10;
+  double area = base * altura ;
+  
+  String mensagem = "A área é do quadrado é igual a $area";
+  
+  print(mensagem);
+}

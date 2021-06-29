@@ -1,0 +1,11 @@
+void main() {
+  double baseMaior = 5;
+  double baseMenor = 2;
+  double altura = 10;
+  double area = ((baseMaior + baseMenor) * altura)/2;
+  
+  String mensagem = "A área é igual a $area";
+  
+  print(mensagem);
+}
+
