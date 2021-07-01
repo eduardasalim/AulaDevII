@@ -1,0 +1,13 @@
+void main(){
+  double n1 = 6;
+  double n2 = 7;
+  
+  double media = (n1+n2)/2;
+  
+  
+  if(media >= 6){
+    print("Aluno Aprovado");
+  }else{
+    print("Aluno Reprovado");
+  }
+}

@@ -1,0 +1,12 @@
+
+void main(){
+	double n1 = -5;
+
+  if(n1 > 0){
+    print("$n1 é positivo");
+  }else if(n1 < 0){
+    print("$n1 é negativo");
+  }else{
+    print("$n1 é igual a 0");
+  }
+}

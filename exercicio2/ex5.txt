@@ -1,0 +1,16 @@
+void main(){
+  double n1 = 6;
+  double n2 = 7;
+  double n3 = 8;
+  
+  double media = (n1+n2+n3)/3;
+  
+  
+  if(media >= 7){
+    print("Aluno Aprovado");
+  }else if(media >= 6 && media < 7){
+    print("Exame");
+  }else{
+    print("Aluno Reprovado");
+  }
+}

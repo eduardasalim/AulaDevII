@@ -1,0 +1,13 @@
+void main(){
+  
+  double salarioAtual = 1000;
+  int anoEmpresa = 5;
+  double dissidio = 0.04;
+  
+  if(anoEmpresa >=1 ){
+    double novoSalario = (salarioAtual * dissidio) + salarioAtual;
+    print("Novo salário de $novoSalario");
+  }else{
+    print("Funcionário com menos de 1 ano de empresa");
+  }
+}

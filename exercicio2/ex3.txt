@@ -1,0 +1,17 @@
+void main(){
+  int a = 2;
+  int b = 4;
+  int c = 6;
+  
+  int calculo = a +(b*c);
+  print(calculo);
+  
+  double calculo2 = (b/a) * c;
+  print(calculo2);
+  
+  if(calculo == calculo2){
+    print("Os resultados são iguais");
+  }else{
+    print("Os resultados não são iguais");
+  }
+}
