@@ -1,0 +1,14 @@
+void main() {
+  List<double> altura = [1.70, 1.88, 1.75, 1.98, 1.85, 1.84, 1.77, 1.68, 1.95,1.69, 1.74, 1.86, 1.67, 1.91, 1.87];
+  
+  
+  double media = 0;
+  
+  for(double num in altura){
+    media+= num;
+  }
+  
+  media = media/15;
+  
+  print("Média de altura entre os jogadores é de "+media.toString());
+}

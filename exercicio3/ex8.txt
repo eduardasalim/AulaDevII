@@ -1,0 +1,10 @@
+void main(){
+   int numero = 5;
+   int resultado = 1;
+
+   while (numero > 0){
+      resultado = resultado + numero;
+      numero--;
+    }
+   print(resultado);
+}

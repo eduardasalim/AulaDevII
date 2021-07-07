@@ -1,0 +1,22 @@
+void main() {
+  List<String> nome = ['Rocky', 'Johnny', 'Carl', 'Luke', 'Michael', 'Bob', 'Vader'];
+  
+  var pesoLutadores = {
+    1: 70.7,
+    2: 88.7,
+    3: 100.4,
+    4: 69.4,
+    5: 79.7,
+    6: 84.1,
+    7: 98.2
+  };
+  
+  for(int i = 1; i < 7; i++){
+    double peso = double.parse(pesoLutadores[i].toString());
+      
+    if(peso > 90){
+      print(nome[i]);
+      print(pesoLutadores[i]);
+    } 
+  }
+}

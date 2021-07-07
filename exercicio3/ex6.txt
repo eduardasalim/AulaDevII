@@ -1,0 +1,6 @@
+void main() {
+ 
+ var num = 5;
+ List<int> tabuada = List.generate(10, (i) => (i++)*num);
+  print(tabuada);
+}
