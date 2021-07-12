@@ -1,0 +1,14 @@
+void main(){
+  
+  int numeros = menorNumero(1,2);
+  print(numeros);
+  
+}
+
+int menorNumero(int a, int b){
+  if(a > b){
+    return b;
+  }else{
+    return a;
+  }
+}

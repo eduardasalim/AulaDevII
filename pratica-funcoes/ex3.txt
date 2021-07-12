@@ -1,0 +1,12 @@
+void main(){
+  numero(5);
+}
+
+bool numero(int n)
+{
+    if(n < 0){
+        return true
+    }else{
+        return false
+    }
+}
