@@ -1,0 +1,10 @@
+void main(){
+  media(5,7);
+}
+
+void media(int a, b){
+  double conta = (a+b)/2;
+  
+  print(conta);
+    
+}

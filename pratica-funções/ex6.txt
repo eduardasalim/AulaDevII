@@ -1,0 +1,22 @@
+void main(){
+  classificacao(15);
+}
+
+void classificacao(int a){
+    if(a >= 5 && a <= 7){
+        print("Infantil A");
+    }
+    else if(a >= 8 && a <= 10){
+        print("Infantil B");
+    }
+    else if(a >= 11 && a <= 13){
+        print("Juvenil A");
+    }
+    else if(a >= 14 && a <= 17){
+        print("Juvenil B");
+    }
+    else{
+        print("Adulto");
+    }
+}
+

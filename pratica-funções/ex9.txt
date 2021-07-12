@@ -1,0 +1,16 @@
+void main(){
+ 
+  numeros(4,9);
+
+}
+
+void numeros(int a, int b){
+  
+  if(a > b){
+    print(""+b.toString()+", "+a.toString());
+  }else if(a < b){
+    print(""+a.toString()+", "+b.toString());
+  }else{
+    print("Os números são iguais");
+  }
+}

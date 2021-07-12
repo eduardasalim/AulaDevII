@@ -1,0 +1,11 @@
+void main(){
+  valor(8);
+}
+bool valor(int a) {
+
+  if (a % 2 == 0 || a/a == 0) {
+    return true;
+  }else{ 
+    return false;
+  }
+}
